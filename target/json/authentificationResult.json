@@ -1,0 +1,253 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5651389700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "je suis sur la page login",
+            "match": {
+              "location": "StepDefinitions.AuthentificationSteps.je_suis_sur_la_page_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-05T14:47:21.542Z",
+        "line": 15,
+        "name": "Test connection",
+        "description": "",
+        "id": "v�rifier-authentification;test-connection;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99682600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "je saisi username: \"admin\" And je saisi password: \"admina\" And je clique sur Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"admina\"",
+                  "offset": 50
+                }
+              ],
+              "location": "StepDefinitions.AuthentificationSteps.je_saisi_username_and_je_saisi_password_and_je_clique_sur_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3961709600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Connexion et redirection vers le dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Connexion et redirection vers le dashboard\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinitions.AuthentificationSteps.string(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AuthentificationTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3683761900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "je suis sur la page login",
+            "match": {
+              "location": "StepDefinitions.AuthentificationSteps.je_suis_sur_la_page_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-05T14:47:31.325Z",
+        "line": 16,
+        "name": "Test connection",
+        "description": "",
+        "id": "v�rifier-authentification;test-connection;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92601200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "je saisi username: \"admina\" And je saisi password: \"admina\" And je clique sur Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admina\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"admina\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.AuthentificationSteps.je_saisi_username_and_je_saisi_password_and_je_clique_sur_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1879726300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Msg Erreur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Msg Erreur\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinitions.AuthentificationSteps.string(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AuthentificationTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3689054400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "je suis sur la page login",
+            "match": {
+              "location": "StepDefinitions.AuthentificationSteps.je_suis_sur_la_page_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-05T14:47:36.986Z",
+        "line": 17,
+        "name": "Test connection",
+        "description": "",
+        "id": "v�rifier-authentification;test-connection;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69801200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "je saisi username: \"admin\" And je saisi password: \"adminaaa\" And je clique sur Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"adminaaa\"",
+                  "offset": 50
+                }
+              ],
+              "location": "StepDefinitions.AuthentificationSteps.je_saisi_username_and_je_saisi_password_and_je_clique_sur_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1748007500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Msg Erreur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Msg Erreur\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinitions.AuthentificationSteps.string(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AuthentificationTest"
+          }
+        ]
+      }
+    ],
+    "name": "V�rifier Authentification",
+    "description": "",
+    "id": "v�rifier-authentification",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/gestionAuthentification.feature",
+    "tags": [
+      {
+        "name": "@AuthentificationTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
